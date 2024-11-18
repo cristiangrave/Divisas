@@ -1,0 +1,37 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="colores">
+      <ion-title size="large">Divisas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input label="Ingresa Cantidad Q: " [(ngModel)]="inputCantidad"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="calcular()">Calcular</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>{{resultado}}.$</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+
+        <ion-button [routerLink]="['/home']">Home</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

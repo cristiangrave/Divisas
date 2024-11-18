@@ -1,0 +1,7 @@
+{
+  "name": "Divisas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
