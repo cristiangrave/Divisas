@@ -10,11 +10,9 @@ export class DivisasPage implements OnInit {
   inputCantidad: number = 0;
   resultado: number = 0; /* se crea la variablde de tipo numero U objeto tambien en un futuro lo vamos a utilizar  */
   async ngOnInit() {
-    console.log('esto inicia cuando renderiza');
     this.calcular();
   }
   calcular() {
-    this.resultado = this.inputCantidad * 8;
-    console.log('hola', this.resultado);
+    this.resultado = this.inputCantidad / 8;
   }
 }
