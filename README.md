@@ -1,1 +1,1 @@
-a# DivisasApp_22011441
+Aplicacion Realizada con Ionic Framework y Angular js
